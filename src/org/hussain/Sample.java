@@ -5,6 +5,16 @@ public class Sample {
    int i;
    
 
+public int getI() {
+    return i;
+}
+
+
+public void setI(int i) {
+    this.i = i;
+}
+
+
 public String getStr() {
     return str;
 }
@@ -17,7 +27,7 @@ public void setStr(String str) {
 
 @Override
 public String toString() {
-    return "Sample [str=" + str + "]";
+    return "Sample [str=" + str + ", i=" + i + "]";
 }
    
 
