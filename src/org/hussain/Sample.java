@@ -2,6 +2,7 @@ package org.hussain;
 
 public class Sample {
    private  String str;
+   int i;
    
 
 public String getStr() {
